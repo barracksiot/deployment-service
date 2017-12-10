@@ -1,0 +1,16 @@
+{
+  "userId": "supersuper",
+  "unitId": "OhOhOh",
+  "additionalProperties": {
+  },
+  "packages": [
+    {
+      "reference": "b4d.c0ffee",
+      "version": "0.0.1"
+    },
+    {
+      "reference": "dead.beef",
+      "version": "0.0.2"
+    }
+  ]
+}

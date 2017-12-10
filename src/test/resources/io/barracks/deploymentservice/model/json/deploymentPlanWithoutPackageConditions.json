@@ -1,0 +1,11 @@
+{
+  "packageRef": "io.barracks.app1",
+  "rules": [
+    {
+      "version": "v0.0.1",
+      "allow": {
+        "filters": [ "filter1", "filter2" ]
+      }
+    }
+  ]
+}

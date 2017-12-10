@@ -1,0 +1,73 @@
+= Deployment Service
+
+== Create a deployment plan
+A `POST` request creates a deployment plan.
+
+include::{snippets}/deployment/plans/publish/path-parameters.adoc[]
+
+include::{snippets}/deployment/plans/publish/request-fields.adoc[]
+
+=== Request
+include::{snippets}/deployment/plans/publish/http-request.adoc[]
+include::{snippets}/deployment/plans/publish/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/deployment/plans/publish/http-response.adoc[]
+
+== Check available versions
+A `POST` request gets the available versions for a device.
+
+include::{snippets}/deployment/packages/resolve/request-fields.adoc[]
+
+=== Request
+include::{snippets}/deployment/packages/resolve/http-request.adoc[]
+include::{snippets}/deployment/packages/resolve/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/deployment/packages/resolve/http-response.adoc[]
+
+include::{snippets}/deployment/packages/resolve/response-fields.adoc[]
+
+== Get active deployment plan by package reference and user id
+A `GET` request gets the active deployment plans of the given userId and package reference.
+
+include::{snippets}/deployment/plans/get-active-deployment-plan/path-parameters.adoc[]
+
+=== Request
+include::{snippets}/deployment/plans/get-active-deployment-plan/http-request.adoc[]
+include::{snippets}/deployment/plans/get-active-deployment-plan/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/deployment/plans/get-active-deployment-plan/http-response.adoc[]
+include::{snippets}/deployment/plans/get-active-deployment-plan/response-fields.adoc[]
+
+== Get by filter name and user id
+A `GET` request gets the deployment plans of the given userId that use the given filter.
+
+include::{snippets}/deployment/plans/get-by-filter-name/request-parameters.adoc[]
+include::{snippets}/deployment/plans/get-by-filter-name/path-parameters.adoc[]
+
+=== Request
+include::{snippets}/deployment/plans/get-by-filter-name/http-request.adoc[]
+include::{snippets}/deployment/plans/get-by-filter-name/curl-request.adoc[]
+
+=== Response
+
+include::{snippets}/deployment/plans/get-by-filter-name/http-response.adoc[]
+include::{snippets}/deployment/plans/get-by-filter-name/response-fields.adoc[]
+
+== Get deployed versions
+A 'GET' request get the deployed versions associated to the userId and package reference.
+
+include::{snippets}/deployment/plans/get-deployed-versions/request-parameters.adoc[]
+include::{snippets}/deployment/plans/get-deployed-versions/path-parameters.adoc[]
+
+=== Request
+include::{snippets}/deployment/plans/get-deployed-versions/http-request.adoc[]
+include::{snippets}/deployment/plans/get-deployed-versions/curl-request.adoc[]
+
+=== Response
+include::{snippets}/deployment/plans/get-deployed-versions/http-response.adoc[]
